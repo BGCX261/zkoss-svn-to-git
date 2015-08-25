@@ -1,0 +1,428 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<toolkit>
+  <groups>
+  	<group name="Standard"> 
+	  	<tab name="General">
+	  		<component>
+	  			<class>org.zkoss.zul.Window</class>
+	  			<image16>images/designer/tree/components/Window.png</image16>
+	  			<image32>images/designer/toolkit/basic/Window.png</image32>
+	  			<tooltip>Window - used for creating a new Window within the page</tooltip>
+				<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick, onOk, onCancel, onCtrlKey, onMove, onShow, onZIndex</events>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Label</class>
+	  			<image16>images/designer/tree/components/Label.png</image16>	 			
+	 			<image32>images/designer/toolkit/basic/Label.png</image32>
+	 			<tooltip>Label - used for displaying text or images</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Image</class>
+	  			<image16>images/designer/tree/components/Image.png</image16>
+	  			<image32>images/designer/toolkit/basic/Image.png</image32>
+	  			<tooltip>Image - used for image32 display</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick,onRightClick, onDoubleClick</events>	  		
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Progressmeter</class>
+	  			<image16>images/designer/tree/components/Progressmeter.png</image16>
+	  			<image32>images/designer/toolkit/basic/Progressmeter.png</image32>
+	  			<tooltip>Progress meter- used for indicating how much of a task has been completed.</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Popup</class>
+	  			<image16>images/designer/tree/components/Popup.png</image16>
+	  			<image32>images/designer/toolkit/basic/Popup.png</image32>
+	  			<tooltip>Popup Window - can be used as a Tooltip too</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Include</class>
+	  			<image16>images/designer/tree/components/Include.png</image16>
+	  			<image32>images/designer/toolkit/basic/Include.png</image32>
+	  			<tooltip>Include - used for including other '*.zul' pages into the canvas</tooltip>
+	  		</component>
+	  		<component>
+	  			<image16>images/designer/tree/components/Iframe.png</image16>
+	  			<class>org.zkoss.zul.Iframe</class>
+	  			<image32>images/designer/toolkit/basic/Iframe.png</image32>
+	  			<tooltip>Iframe - used for including an inline frame into the page for displaying HTML/JSP content</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Timer</class>
+	  			<image16>images/designer/tree/components/Timer.png</image16>
+	  			<image32>images/designer/toolkit/basic/Timer.png</image32>
+	  			<tooltip>Timer - used for executing events at specified intervals</tooltip>
+	 			<events>onTimer</events>	  		
+	  		</component>
+	  
+	  	</tab>
+	  	<tab name="Layout"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Hbox</class>
+	  			<image16>images/designer/tree/components/Hbox.png</image16>
+	  			<image32>images/designer/toolkit/layout/Hbox.png</image32>
+	  			<tooltip>Horizontal Box - groups components horizontally</tooltip>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Vbox</class>
+	  			<image16>images/designer/tree/components/Vbox.png</image16>
+	 			<image32>images/designer/toolkit/layout/Vbox.png</image32>
+	 			<tooltip>Vertical Box - groups components vertically</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Separator</class>
+	  			<image16>images/designer/tree/components/Separator.png</image16>
+	  			<image32>images/designer/toolkit/layout/Separator.png</image32>
+	  			<tooltip>Separator - separates components either horizontally, or vertically</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Splitter</class>
+	  			<image16>images/designer/tree/components/Splitter.png</image16>
+	  			<image32>images/designer/toolkit/layout/Splitter.png</image32>
+	  			<tooltip>Splitter - splits the page and lets the user adjust the dimensions</tooltip>
+	  		</component> 	
+		</tab>
+	  	<tab name="Input"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Textbox</class>
+	  			<image16>images/designer/tree/components/Textbox.png</image16>
+	  			<image32>images/designer/toolkit/input/Textbox.png</image32>
+	  			<tooltip>Textbox - used for data entry</tooltip>
+	 			<events>onChange, onChanging, onFocus, onBlur</events>	  		
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Intbox</class>
+	  			<image16>images/designer/tree/components/Intbox.png</image16>
+	 			<image32>images/designer/toolkit/input/Intbox.png</image32>
+	 			<tooltip>Integer Box - a textbox for integers</tooltip>
+	 			<events>onChange, onChanging, onFocus, onBlur</events>	  		
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Decimalbox</class>
+	  			<image16>images/designer/tree/components/Decimalbox.png</image16>
+	  			<image32>images/designer/toolkit/input/Decimalbox.png</image32>
+	  			<tooltip>Decimal Box - a textbox for big decimals</tooltip>
+	 			<events>onChange, onChanging, onFocus, onBlur</events>	  		
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Bandbox</class>
+	  			<image16>images/designer/tree/components/Bandbox.png</image16>
+	  			<image32>images/designer/toolkit/input/Bandbox.png</image32>
+	  			<tooltip>Band Box - a combo box that displays a popup window</tooltip>
+	 			<events>onChange, onChanging, onFocus, onBlur</events>	  		
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Bandpopup</class>
+	  			<image16>images/designer/tree/components/Bandpopup.png</image16>
+	  			<image32>images/designer/toolkit/input/Bandpopup.png</image32>
+	  			<tooltip>Band Popup - a popup window used with a Bandbox.</tooltip>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Button</class>
+	  			<image16>images/designer/tree/components/Button.png</image16>
+	 			<image32>images/designer/toolkit/input/Button.png</image32>
+	 			<tooltip>Button - a classic one!</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onFocus, onBlur</events>	  		
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Checkbox</class>
+	  			<image16>images/designer/tree/components/Checkbox.png</image16>
+	  			<image32>images/designer/toolkit/input/Checkbox.png</image32>
+	  			<tooltip>Checkbox - a classic one!</tooltip>
+	 			<events>onFocus, onBlur</events>	  		
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Combobox</class>
+	  			<image16>images/designer/tree/components/Combobox.png</image16>
+	  			<image32>images/designer/toolkit/input/Combobox.png</image32>
+	  			<tooltip>Combobox - used for entering or selecting data. Can be autodrop and autoselect.</tooltip>
+	 			<events>onChange, onChanging, onFocus, onBlur</events>	  		
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Comboitem</class>
+	  			<image16>images/designer/tree/components/Comboitem.png</image16>
+	  			<image32>images/designer/toolkit/input/Comboitem.png</image32>
+	  			<tooltip>Comboitem - an item of a combobox</tooltip>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Radio</class>
+	  			<image16>images/designer/tree/components/Radio.png</image16>
+	 			<image32>images/designer/toolkit/input/Radio.png</image32>
+	 			<tooltip>Radio button - a classic one!</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onFocus, onRightClick, onBlur</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Datebox</class>
+	  			<image16>images/designer/tree/components/Datebox.png</image16>
+	  			<image32>images/designer/toolkit/input/Datebox.png</image32>
+	  			<tooltip>Datebox - textbox used for entering date data. Includes a calendar too!</tooltip>
+	 			<events>onChange, onChanging, onFocus, onBlur</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Calendar</class>
+	  			<image16>images/designer/tree/components/Calendar.png</image16>
+	  			<image32>images/designer/toolkit/input/Calendar.png</image32>
+	  			<tooltip>Calendar - A calendar component for selecting dates.</tooltip>
+	 			<events>onChange, onChanging, onFocus, onBlur</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Slider</class>
+	  			<image16>images/designer/tree/components/Slider.png</image16>
+	  			<image32>images/designer/toolkit/input/Slider.png</image32>
+	  			<tooltip>Slider - a classic one!</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onRightClick, onScroll, onScrolling</events>
+	  		</component>
+		</tab>
+	  	<tab name="List"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Listbox</class>
+	  			<image16>images/designer/tree/components/Listbox.png</image16>
+	  			<image32>images/designer/toolkit/list/Listbox.png</image32>
+	  			<tooltip>Listbox - for selecting data only</tooltip>
+	 			<events>onSelect</events>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Listhead</class>
+	  			<image16>images/designer/tree/components/Listhead.png</image16>
+	 			<image32>images/designer/toolkit/list/Listhead.png</image32>
+	 			<tooltip>Listhead - a collection of Listheaders</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Listheader</class>
+	  			<image16>images/designer/tree/components/Listheader.png</image16>
+	  			<image32>images/designer/toolkit/list/Listheader.png</image32>
+	  			<tooltip>Listheader - a column header of a listbox</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick,onRightClick, onDoubleClick</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Listfooter</class>
+	  			<image16>images/designer/tree/components/Listfooter.png</image16>
+	  			<image32>images/designer/toolkit/list/Listfooter.png</image32>
+	  			<tooltip>Listfooter - the footer of a listbox</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick,onRightClick, onDoubleClick</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Listitem</class>
+	  			<image16>images/designer/tree/components/Listitem.png</image16>
+	  			<image32>images/designer/toolkit/list/Listitem.png</image32>
+	  			<tooltip>Listitem - a listbox item</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Listcell</class>
+	  			<image16>images/designer/tree/components/Listcell.png</image16>
+	  			<image32>images/designer/toolkit/list/Listcell.png</image32>
+	  			<tooltip>Listcell - cell within a listitem, that corresponds to a listheader</tooltip>
+	  		</component>
+		</tab>
+	  	<tab name="Grid"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Grid</class>
+	  			<image16>images/designer/tree/components/Grid.png</image16>
+	  			<image32>images/designer/toolkit/grid/Grid.png</image32>
+	  			<tooltip>Grid - used for grouping components in a table style</tooltip>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Rows</class>
+	  			<image16>images/designer/tree/components/Rows.png</image16>
+	 			<image32>images/designer/toolkit/grid/Rows.png</image32>
+	 			<tooltip>Rows - a collection of rows within a grid.</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Row</class>
+	  			<image16>images/designer/tree/components/Row.png</image16>
+	  			<image32>images/designer/toolkit/grid/Row.png</image32>
+	  			<tooltip>Row - a row within a grid. Container for other elements.</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Columns</class>
+	  			<image16>images/designer/tree/components/Columns.png</image16>
+	  			<image32>images/designer/toolkit/grid/Columns.png</image32>
+	  			<tooltip>Columns - a collection of columns within a grid</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Column</class>
+	  			<image16>images/designer/tree/components/Column.png</image16>
+	  			<image32>images/designer/toolkit/grid/Column.png</image32>
+	  			<tooltip>Column - a single column within a grid. Container for other elements.</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick,onRightClick, onDoubleClick</events>
+	  		</component> 	
+		</tab>
+	  	<tab name="Tabs"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Tabbox</class>
+	  			<image16>images/designer/tree/components/Tabbox.png</image16>
+	  			<image32>images/designer/toolkit/tabs/Tabbox.png</image32>
+	  			<tooltip>Tabbox - a collection of Tabs</tooltip>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Tabs</class>
+	  			<image16>images/designer/tree/components/Tabs.png</image16>
+	 			<image32>images/designer/toolkit/tabs/Tabs.png</image32>
+	 			<tooltip>Tabs - a collection of Tab elements (tabsheets)</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Tab</class>
+	  			<image16>images/designer/tree/components/Tab.png</image16>
+	  			<image32>images/designer/toolkit/tabs/Tab.png</image32>
+	  			<tooltip>Tab - a single Tab element</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Tabpanels</class>
+	  			<image16>images/designer/tree/components/Tabpanels.png</image16>
+	  			<image32>images/designer/toolkit/tabs/Tabpanels.png</image32>
+	  			<tooltip>Tabpanels - a collection of Tab panels</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Tabpanel</class>
+	  			<image16>images/designer/tree/components/Tabpanel.png</image16>
+	  			<image32>images/designer/toolkit/tabs/Tabpanel.png</image32>
+	  			<tooltip>Tabpanel - a single Tab panel. Container for other elements</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick</events>
+	  		</component> 	
+		</tab>
+	  	<tab name="Grouping"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Groupbox</class>
+	  			<image16>images/designer/tree/components/Groupbox.png</image16>
+	  			<image32>images/designer/toolkit/grouping/Groupbox.png</image32>
+	  			<tooltip>Groupbox - groups components together. Provides nice visual effects.</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick</events>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Caption</class>
+	  			<image16>images/designer/tree/components/Caption.png</image16>
+	 			<image32>images/designer/toolkit/grouping/Caption.png</image32>
+	 			<tooltip>Caption - a caption for a groupbox and other elements</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Radiogroup</class>
+	  			<image16>images/designer/tree/components/Radiogroup.png</image16>
+	  			<image32>images/designer/toolkit/grouping/Radiogroup.png</image32>
+	  			<tooltip>Radiogroup - a collection of radio buttons</tooltip>
+	  		</component>	 	
+		</tab>
+	  	<tab name="Toolbar"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Toolbar</class>
+	  			<image16>images/designer/tree/components/Toolbar.png</image16>
+	  			<image32>images/designer/toolkit/toolbar/Toolbar.png</image32>
+	  			<tooltip>Toolbar - a Toolbar component</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick</events>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Toolbarbutton</class>
+	  			<image16>images/designer/tree/components/Toolbarbutton.png</image16>
+	 			<image32>images/designer/toolkit/toolbar/Toolbarbutton.png</image32>
+	 			<tooltip>Toolbarbutton - a single Toolbar button.</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick</events>
+	  		</component>	 	
+		</tab>
+	  	<tab name="Menu"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Menubar</class>
+	  			<image16>images/designer/tree/components/Menubar.png</image16>
+	  			<image32>images/designer/toolkit/menu/Menubar.png</image32>
+	  			<tooltip>Menu Bar - creates a Menu bar for holding Menu components.</tooltip>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Menu</class>
+	  			<image16>images/designer/tree/components/Menu.png</image16>
+	 			<image32>images/designer/toolkit/menu/Menu.png</image32>
+	 			<tooltip>Menu - creates a Menu object that resides in a menu bar</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Menupopup</class>
+	  			<image16>images/designer/tree/components/Menupopup.png</image16>
+	  			<image32>images/designer/toolkit/menu/Menupopup.png</image32>
+	  			<tooltip>Menu Popup - the window displayed when a menu is pressed.</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Menuitem</class>
+	  			<image16>images/designer/tree/components/Menuitem.png</image16>
+	  			<image32>images/designer/toolkit/menu/Menuitem.png</image32>
+	  			<tooltip>Menu Item - a single menu item.</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Menuseparator</class>
+	  			<image16>images/designer/tree/components/Menuseparator.png</image16>
+	  			<image32>images/designer/toolkit/menu/Menuseparator.png</image32>
+	  			<tooltip>Menu Separator - separates menu items.</tooltip>
+	  		</component> 		 	
+		</tab>
+	  	<tab name="Tree"> 
+	  		<component>
+	  			<class>org.zkoss.zul.Tree</class>
+	  			<image16>images/designer/tree/components/Tree.png</image16>
+	  			<image32>images/designer/toolkit/tree/Tree.png</image32>
+	  			<tooltip>Tree - creates a Tree view components on the page.</tooltip>
+	  		</component>
+	  		<component>
+	 			<class>org.zkoss.zul.Treechildren</class>
+	  			<image16>images/designer/tree/components/Treechildren.png</image16>
+	 			<image32>images/designer/toolkit/tree/Treechildren.png</image32>
+	 			<tooltip>Treechildren - collection of Treeitems.</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Treecell</class>
+	  			<image16>images/designer/tree/components/Treecell.png</image16>
+	  			<image32>images/designer/toolkit/tree/Treecell.png</image32>
+	  			<tooltip>Treecell - individual cell of elements within a tree row.</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Treecol</class>
+	  			<image16>images/designer/tree/components/Treecol.png</image16>
+	  			<image32>images/designer/toolkit/tree/Treecol.png</image32>
+	  			<tooltip>Treecol - a tree column that separates tree view data.</tooltip>
+	 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick</events>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Treecols</class>
+	  			<image16>images/designer/tree/components/Treecols.png</image16>
+	  			<image32>images/designer/toolkit/tree/Treecols.png</image32>
+	  			<tooltip>Treecols - a collection of tree columns.</tooltip>
+	  		</component> 		 		 	
+	  		<component>
+	  			<class>org.zkoss.zul.Treeitem</class>
+	  			<image16>images/designer/tree/components/Treeitem.png</image16>
+	  			<image32>images/designer/toolkit/tree/Treeitem.png</image32>
+	  			<tooltip>Treeitem - a single row tree element.</tooltip>
+	  		</component>
+	  		<component>
+	  			<class>org.zkoss.zul.Treerow</class>
+	  			<image16>images/designer/tree/components/Treerow.png</image16>
+	  			<image32>images/designer/toolkit/tree/Treerow.png</image32>
+	  			<tooltip>Treerow - a single row of elements within the tree.</tooltip>
+	  		</component> 		 		 	
+		</tab>
+	</group>
+	<group name="Custom">
+	  <tab name="Dojo">
+  		<component>
+ 			<class>org.zkforge.dojo.Fisheyelist</class>
+  			<image16>images/designer/tree/components/Fisheyelist.png</image16>
+			<image32>images/designer/toolkit/fisheye/Fisheyelist.png</image32>
+			<tooltip>Fisheye List</tooltip>
+  		</component>
+  		<component>
+  			<class>org.zkforge.dojo.Fisheyeitem</class>
+ 			<image16>images/designer/tree/components/Fisheyeitem.png</image16>
+			<image32>images/designer/toolkit/fisheye/Fisheyeitem.png</image32>
+			<tooltip>Fisheye Item</tooltip>
+ 			<events>onCreate, onDrop, onNotify, onClick, onRightClick, onDoubleClick</events>
+  		</component>
+	  </tab>
+	  <tab name="FCK Editor">
+  		<component>
+ 			<class>org.zkforge.fckez.FCKeditor</class>
+  			<image16>images/designer/tree/components/FCKeditor.png</image16>
+			<image32>images/designer/toolkit/fckeditor/FCKeditor.png</image32>
+			<tooltip>FCK Editor</tooltip>
+  		</component>
+	  </tab>
+	</group>
+  </groups>
+</toolkit>        

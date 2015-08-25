@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<rules>
+	<component class="org.zkoss.zul.Tree" rulesClass="org.zerokode.designer.model.rules.TreeRules"/>  
+	<component class="org.zkoss.zul.Listbox" rulesClass="org.zerokode.designer.model.rules.ListboxRules"/>  
+	<component class="org.zkoss.zul.Tabbox" rulesClass="org.zerokode.designer.model.rules.TabboxRules"/>  
+	<component class="org.zkoss.zul.Tab" rulesClass="org.zerokode.designer.model.rules.TabRules"/>  
+	<component class="org.zkoss.zul.Textbox" rulesClass="org.zerokode.designer.model.rules.TextboxRules"/>  
+	<component class="org.zkoss.zul.Radiogroup" rulesClass="org.zerokode.designer.model.rules.RadiogroupRules"/>  
+	
+	<!-- Custom Components -->
+
+</rules>        

@@ -1,0 +1,6 @@
+ZeroKode
+A Visual Designer for ZK
+------------------------
+Author: Chris Spiliotopoulos, Greece
+Contributors: Tom Yeh, Robbie Cheng
+

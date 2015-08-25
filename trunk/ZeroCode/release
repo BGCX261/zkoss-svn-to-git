@@ -1,0 +1,30 @@
+#!/bin/bash
+# release
+#
+#{{IS_NOTE
+#	Purpose:
+#		
+#	Description:
+#		
+#	History:
+#		Wed Apr  4 08:51:32     2007, Created by tomyeh
+#}}IS_NOTE
+#
+#Copyright (C) 2007 Potix Corporation. All Rights Reserved.
+#
+#{{IS_RIGHT
+#}}IS_RIGHT
+#
+ver=0.8.1
+
+mkdir -p /tmp/zk
+
+if [ ! -f build/ZeroKode.war ] ; then
+	echo build/ZeroKode.war not found
+	exit 1
+fi
+cd build
+zip -qr9 ZeroKode-${ver}.zip ZeroKode.war
+mv ZeroKode-${ver}.zip /tmp/zk
+
+
